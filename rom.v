@@ -15,7 +15,4 @@ end
 //Read logic
 always @(posedge clk)
     rdData <= mem[rdAddr];
-
-
-
 endmodule
